@@ -23,9 +23,10 @@ Los nombres de perfil son editables. Los valores iniciales son:
 - Funciona directamente en el navegador.
 - Los datos se guardan en `localStorage` del dispositivo y navegador actual.
 - Se puede usar en escritorio y móvil.
-- Tiene tema visual de fútbol arcade 8-bit/16-bit.
-- El estadio pixel art se utiliza como fondo.
-- El encabezado utiliza `jueves-header.png`.
+- Tiene dos vistas visuales intercambiables desde el engrane: `Pixel` y `Realista`.
+- `Pixel` utiliza el estadio pixel art, `stadium-background.png`, y el encabezado `jueves-header.png`.
+- `Realista` utiliza el estadio azul `stadium-real.jpg` y el encabezado `jueves-header-real.png`.
+- La vista elegida se guarda en el dispositivo y no cambia los datos ni la lógica.
 - El catálogo local está separado en `teams-fc27.js`.
 - La versión publicada usa GitHub Pages desde la rama `main`.
 
@@ -122,7 +123,9 @@ torneos-jueves/
 ├── index.html              # HTML, CSS y JavaScript principal
 ├── teams-fc27.js           # Catálogo local de equipos
 ├── jueves-header.png       # Logotipo pixel art del encabezado
+├── jueves-header-real.png  # Logotipo de la vista realista
 ├── stadium-background.png  # Fondo pixel art del estadio
+├── stadium-real.jpg        # Fondo de la vista realista
 └── README.md               # Documentación del proyecto
 ```
 
