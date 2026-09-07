@@ -47,15 +47,17 @@ La app evita nombres de perfil iguales y equipos repetidos dentro del mismo torn
 
 En la pantalla principal se muestran dos columnas independientes, una por jugador.
 
-Cada equipo aparece como un botón. Al pulsarlo se marca como perdido, se tacha y cambia a rojo. Cuando todos los equipos de un jugador están perdidos, el torneo termina automáticamente y se registra el ganador.
+Los equipos aparecen como un roster visible para cada jugador, con contador de equipos vivos y una barra de progreso. Los equipos eliminados permanecen visibles, tachados y atenuados para que se pueda seguir la evolución de la noche.
 
-También existe un registro de enfrentamientos dentro del torneo activo:
+El flujo principal de enfrentamientos está diseñado como un marcador de videojuego:
 
-- Se elige un equipo de cada lista.
-- Se indica qué equipo ganó.
-- Se guarda el cruce.
-- El equipo perdedor se marca automáticamente como eliminado.
-- El cruce queda guardado para el historial detallado.
+1. Se toca un equipo vivo del roster de cada jugador.
+2. La app muestra el próximo partido y el enfrentamiento seleccionado.
+3. Se toca directamente el equipo que ganó; no hace falta indicar manualmente el nombre del jugador.
+4. Se confirma el resultado.
+5. El equipo perdedor se marca automáticamente como eliminado y el cruce queda guardado en el log.
+
+La eliminación manual se conserva como acción de emergencia dentro del botón `⋮` de cada equipo vivo. Así no compite visualmente con el registro normal del partido.
 
 ### Resumen
 
