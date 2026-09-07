@@ -76,6 +76,10 @@ El número de `Próximo campeonato` se puede editar directamente tocando el valo
 
 Este ajuste también se incluye en los respaldos JSON y en el historial de deshacer/rehacer, para que puedas comenzar desde el punto en el que se quedaron.
 
+### Continuar desde un historial parcial
+
+Desde el engrane, `Ajustar historial` permite indicar cuántos torneos había ganado cada perfil antes de usar la app. Esos torneos suman al marcador y a `Torneos jugados`, pero no inventan partidos, equipos ni registros en `Últimos torneos`. El torneo que esté activo también cuenta como torneo jugado mientras siga en curso.
+
 ### Últimos torneos
 
 La pestaña `Últimos torneos` muestra los torneos registrados ordenados por fecha. Al seleccionar uno se abre su detalle.
