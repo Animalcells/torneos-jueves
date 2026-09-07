@@ -72,6 +72,10 @@ La vista principal contiene:
 - Marcador histórico entre los perfiles.
 - Equipos eliminados por jugador.
 
+El número de `Próximo campeonato` se puede editar directamente tocando el valor amarillo. Acepta un valor de 1 a 10 y se conserva al cerrar o recargar la app. La opción `Usar cálculo automático`, dentro del engrane, vuelve a calcularlo a partir de las victorias registradas.
+
+Este ajuste también se incluye en los respaldos JSON y en el historial de deshacer/rehacer, para que puedas comenzar desde el punto en el que se quedaron.
+
 ### Últimos torneos
 
 La pestaña `Últimos torneos` muestra los torneos registrados ordenados por fecha. Al seleccionar uno se abre su detalle.
